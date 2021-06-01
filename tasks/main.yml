@@ -1,3 +1,7 @@
+- name: Role is renamed
+  fail:
+    msg: This role got renamed to dmaes.vaultwarden, because the Bitwarden_RS project changed names to Vaultwarden. Please migrate to the new role, but make sure to check the info in the README before blindly changing anything!
+
 - name: Gather OS-specific variables
   include_vars: "{{ item }}"
   with_first_found:

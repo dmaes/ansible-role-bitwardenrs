@@ -1,5 +1,8 @@
 # Bitwardenrs
 
+#### ⚠️**IMPORTANT**⚠️: This role got moved to [dmaes/ansible-role-vaultwarden](https://github.com/dmaes/ansible-role-vaultwarden)
+This repo still exists to not break existing installs, but using the newest version will fail with a message that you need to migrate.
+
 [![Build Status](https://travis-ci.com/dmaes/ansible-role-bitwardenrs.svg?branch=master)](https://travis-ci.com/dmaes/ansible-role-bitwardenrs)
 
 Builds, installs and configures [Bitwarden_RS](https://github.com/dani-garcia/bitwarden_rs) (without Docker).
